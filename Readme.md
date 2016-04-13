@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Parfenov Sergey](https://up.htmlacademy.ru/htmlcss/13/user/38823).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Духницький](https://htmlacademy.ru/profile/id59884)
 
 ---
 
