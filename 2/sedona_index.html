@@ -5,9 +5,8 @@
     <title>Седона небольшой городок в Аризоне</title>
     <base href="https://htmlacademy-htmlcss.github.io/38823-sedona/2/">
 </head>
-  <header class="main-header">
+  <header class="header"><img src="img/index-logo.png" width="368" height="204" alt="Город Седона">
       <div class="container">
-        <nav class="main-navigation">
           <ul>
             <li>
               <a href="#">ИНФОРМАЦИЯ</a>
@@ -22,17 +21,18 @@
               <a href="#">ГОСТИЦЫ/<a>
             </li>
           </ul>
-        </nav>
       </div>
     </header>
-    <main class="container">
-      <div class="index-logo">
+    
+<div class="index">
         <img src="img/index-logo.png" width="368" height="204" alt="Город Седона">
-      </div>
-      <h1>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
+      
+      <div class="center">
+      <h2>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
       <p>РАССМОТРИМ ПЯТЬ ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
-  <section class="features">
-        <div class="features-item">
+      </div>
+
+      <div class="features-item">
           <b class="features-name">НАСТОЯЩИЙ ГОРОДОК</b>
           <p>№1</p>
           <p>СЕДОНА - НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ,<br> ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>  
@@ -75,12 +75,13 @@
         <p>№5</p>
          <p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И<br>ТОЛПИТСЯ ТАМ</p>         
          </div>
-         </section>
-         <section class="booking">
+    </div>
+        <div class="booking">
          	<h2>ЗАИНТЕРЕСОВАЛСИЬ?</h2>
          	<p>УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+          </div>
          	<div class="search">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</div>
-         </section>
+         <div class="form">
          <form class="regestration" action="https://echo.htmlacademy.ru" method="post">
             <p>Дата заезда</p> <input type="text" name="date" value="" placeholder="24 апреля 2016">
             <p>Дата выезда</p> <input type="text" name="time" value="" placeholder="4 июля 2016">
@@ -89,8 +90,11 @@
            
            <button class="btn" type="submit">НАЙТИ</button>
            </form>
+           </div>
+        <div class="map">
         <img src="img/index-logo.png" width="368" height="204" alt="Карта">
-       
+       </div>
+        
         <footer class="main-footer">
           <div class="container">
            <section class="footer-social">
@@ -100,7 +104,7 @@
           <a class="social-btn social-btn-youtube" href="#">Ютуб</a>
         </section>
         <section class="footer-copyright">
-          <p>WEBSITE BY</p>
+          <p class="icon">WEBSITE BY</p>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>
       </div>
