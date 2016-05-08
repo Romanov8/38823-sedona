@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/artile.css">
+    <link rel="stylesheet" href="css/list.css"> 
     <base href="https://htmlacademy-htmlcss.github.io/38823-sedona/2/">
 </head>
   <body>
@@ -32,7 +33,9 @@
           </ul>
     </header>
     <div class="article">
+        <div class="article-img">
         <img src="img/intro.jpg" class="main-img">
+        </div>
         <div class="article-main__text">
             <h1 class="article-title">СЕДОНА — небольшой городок в АРИЗОНЕ, <br/>зАСЛУЖИвающий большего!</h1>
             <span class="article-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</span>
@@ -49,29 +52,117 @@
                 <img src="img/hotel.jpg">
             </div>
         </div> 
-        <ul class="">
+        <ul class="list">
             <li>
-                <img src="img/icon/house-icon.png" alt="">
+              <div class="list-icon">
+                <img class="house-icon" src="img/icon/house-icon.png" alt="">
+              </div>
                 <h2 class="article-title">Жилье</h2>
                 <span class="article-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</span>
             </li>
             <li>
-                <img src="img/icon/burger-icon.png" alt="">
+
+                <img class="burger-icon" src="img/icon/burger-icon.png" alt="">
                 <h2 class="article-title">ЕДА</h2>
                 <span class="article-text">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</span>
             </li>
             <li>
-                <img src="img/icon/present-icon.png" alt="">
+                <img class="present-icon" src="img/icon/present-icon.png" alt="">
                 <h2 class="article-title">СУВЕНИРЫ</h2>
                 <span class="article-text">Не только китайского, но и местного производства!</span>
             </li>
         </ul>
     </div>
-    <div class="article">
-        
+ <div class="article">
+        <div class="article__conditions">
+        <div class="article__conditions-img">
+                <img src="img/canyon.jpg">
+        </div>
+            <div class="article__conditions-box">
+                <h2 class="article-title">ТАМ ЕСТЬ<br>Мост дьявола</h2>
+                <span class="article-number">-№2-</span>
+                <span class="article-text">Да, по нему можно пройти!<br> Если конечно вы осмелитесь</span>
+            </div>
+        <ul class="list">
+            <li>
+                <h2 class="article-title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
+                <span calss="article-number">-№3-</span>
+                <span class="article-text">ВСЕ достопримечательности находятся очень близко</span>
+            </li>
+            <li>
+                <h2 class="article-title">КРАСИВАЯ ДОРОГА</h2>
+                <span calss="article-number">-№4-</span>
+                <span class="article-text">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</span>
+            </li>
+            <li>
+                <h2 class="article-title">МАЛО ТУРИСТОВ</h2>
+                <span calss="article-number">-№5-</span>
+                <span class="article-text">Большинство едет в гранд каньон и толпится там</span>
+            </li>
+        </ul>
     </div>
-    <div class="article">
-        
+    <div calss="interesting">
+       <div class="interesting__item">
+       <span class="interesting-title">ЗАИНТЕРЕСОВАЛИСЬ?</span>
+       <span class="interesting-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне
+    </span>
+       <span class="interesting-search">ПОИСК ГОСТИНИЦЫ В седоне</span>
     </div>
+    </div>
+
+
+<form action="/echo" method="post">
+    <div class="date_enter">
+                <label for="date">Дата заезда</label> 
+                <input calss="btn_reg" type="date" name="date">
+    </div>
+    <div calss="date_exit">
+                <label for="date">Дата выезда</label> 
+                <input class="btn_reg" type="date" name="date">
+            </div>
+    <div class="number">
+     <div class="number_old">
+            <p>Взрослые</p>
+            <p><input type="number" size="3" name="num" min="1" max="10" value="1"></p>
+   </div>
+   <div class="number_children">
+            <p>Дети</p>
+            <p><input type="number" size="3" name="num" min="1" max="10" value="1"></p>
+   </div>
+    </div>
+
+<div class="buttons">
+            <input type="submit" value="НАЙТИ">
+</div>
+<div class="map">
+    <img src="img/map.jpg">
+</div>
+</form>
+
+<footer>
+    <img class="visit" src="img/icon/visitSEDONA.png">
+<div class="twitter_icon">
+    <p>
+    <a href="https://twitter.com/"><img src="img/icon/tweet-icon.png" width="" height="" alt="TWITT">
+    </a>
+    </p>
+</div>
+<div class="fb_icon">
+    <p>
+    <a href="https://www.facebook.com/"><img src="img/icon/fb-icon.png" width="" height="" alt="FACEBOOK">
+    </a>
+    </p>
+</div>
+<div class="youtube_icon">
+    <p>
+    <a href="https://www.youtube.com/"><img src="img/icon/youtube-icon.png" width="" height="" alt="YOUTUBE">
+    </a>
+    </p>
+</div>
+<div class="website_by"> 
+   <a href="https://www.htmlacademy.ru/"><img src="img/icon/htmlacademy-icon.png" width="" height="" alt="">
+    </a> 
+</div>
+</footer>
   </body>
 </html>
